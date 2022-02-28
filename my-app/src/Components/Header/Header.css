@@ -1,0 +1,43 @@
+.header {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(12, 7, 53);
+  }
+
+  .navbar {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 30px;
+    padding: 5px;
+    height: 60px;
+  }
+
+  .text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40vw;
+    margin: 30px;
+  }
+
+  h1 {
+    font-size: 60px;
+    text-align: left;
+    margin: 0;
+  }
+
+  h3 {
+    font-size: 30px;
+    text-align: left;
+  }
+
+  button {
+    padding: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 0.95em;
+  }

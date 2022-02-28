@@ -1,0 +1,28 @@
+.cardsList {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.card img {
+    height: 150px;
+    width: 150px;
+}
+
+.card h3 {
+    margin: 2px;
+    color: rgb(12, 7, 53);
+}
+
+.card p {
+    color: grey;
+    margin: 0;
+    font-size: 20px;
+}
